@@ -1,8 +1,37 @@
 ﻿# Property Ownership Transferring using Blockchain
 
-This project investigates the application of blockchain technology to improve data governance and transaction security in real estate ownership transfers. Traditional property transfer systems rely heavily on centralised registries and multiple intermediaries, which often result in high costs, processing delays, lack of transparency, and increased vulnerability to fraud. To address these issues, the project proposes and implements a blockchain-based escrow system that automates property transactions using smart contracts on the Ethereum network.
+## Problem Context
+Traditional real estate ownership transfer systems rely on centralised databases and multiple intermediaries.
+These systems often suffer from inefficiencies such as high transaction costs, long processing times, limited transparency, and increased risk of fraud or data manipulation.
 
-The system leverages Solidity smart contracts, Non-Fungible Tokens (NFTs) to represent unique property titles, and a decentralised application (dApp) built with ReactJS and Web3 to enable secure user interaction. The escrow mechanism ensures that payments and ownership transfers only occur when predefined contractual conditions are met, eliminating the need for third-party intermediaries. Role-based access control, cryptographic authentication via MetaMask, and immutable blockchain records strengthen data integrity, transparency, and accountability.
+## Project Objective
+To design and evaluate a blockchain-based solution that improves data governance, transparency, and security in real estate ownership transfer.
 
-Through local testing using Hardhat and Ganache, the system demonstrated successful automation of property listing, payment settlement, and ownership transfer, completing transactions within minutes rather than weeks. Evaluation results indicate that the blockchain-based approach significantly reduces administrative costs, minimises human error, and enhances security compared to traditional escrow systems. While challenges remain—such as scalability, regulatory acceptance, and smart contract vulnerabilities—the project highlights blockchain’s strong potential to transform real estate data governance and enable more efficient, transparent, and trustworthy property ownership transfer systems.
+## Proposed Solution
+Development of a decentralised escrow system using blockchain technology.
+Smart contracts automate transaction execution, ensuring ownership transfer and payment occur only when predefined conditions are met.
+Property ownership is represented using Non-Fungible Tokens (NFTs) to enable unique, secure, and traceable property identification.
+
+## System Implementation
+Built as a decentralised application (dApp) on the Ethereum blockchain.
+Smart contracts developed using Solidity.
+Front-end interface implemented with ReactJS and Web3.
+User authentication and transaction approval managed through MetaMask.
+System functionality tested using Hardhat and Ganache in a local blockchain environment.
+
+## Evaluation and Results
+Demonstrates reduced transaction time and administrative overhead compared to traditional escrow processes.
+Eliminates reliance on third-party intermediaries, increasing operational efficiency.
+Enhances data integrity, transparency, and auditability through immutable blockchain records.
+Smart contract automation reduces human error in ownership transfer.
+
+## Limitations and Considerations
+Scalability challenges associated with blockchain networks.
+Regulatory and legal acceptance of blockchain-based property transactions.
+Potential security risks related to smart contract vulnerabilities.
+
+## Conclusion
+The project highlights the strong potential of blockchain technology to modernise real estate transaction systems.
+Blockchain-based escrow systems can significantly improve trust, efficiency, and data governance in property ownership transfer.
+
 
